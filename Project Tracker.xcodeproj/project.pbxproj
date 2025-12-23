@@ -16,6 +16,15 @@
 		CFB0ADD22EFAFEF900B11211 /* Project_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADD12EFAFEF900B11211 /* Project_TrackerTests.swift */; };
 		CFB0ADDC2EFAFEF900B11211 /* Project_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADDB2EFAFEF900B11211 /* Project_TrackerUITests.swift */; };
 		CFB0ADDE2EFAFEF900B11211 /* Project_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADDD2EFAFEF900B11211 /* Project_TrackerUITestsLaunchTests.swift */; };
+		CFB0ADEE2EFB036500B11211 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADEA2EFB036500B11211 /* Project+CoreDataClass.swift */; };
+		CFB0ADEF2EFB036500B11211 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADEB2EFB036500B11211 /* Project+CoreDataProperties.swift */; };
+		CFB0ADF02EFB036500B11211 /* Checkpoint+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADEC2EFB036500B11211 /* Checkpoint+CoreDataClass.swift */; };
+		CFB0ADF12EFB036500B11211 /* Checkpoint+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADED2EFB036500B11211 /* Checkpoint+CoreDataProperties.swift */; };
+		CFB0ADF32EFB04A800B11211 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADF22EFB04A800B11211 /* ProjectDetailView.swift */; };
+		CFB0ADF52EFB099800B11211 /* TimelineProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADF42EFB099800B11211 /* TimelineProgressBar.swift */; };
+		CFB0ADF72EFB0DE400B11211 /* CheckPointRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADF62EFB0DE300B11211 /* CheckPointRow.swift */; };
+		CFB0ADF92EFB23E400B11211 /* CheckpointEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADF82EFB23E300B11211 /* CheckpointEditorView.swift */; };
+		CFB0ADFB2EFB240900B11211 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0ADFA2EFB240900B11211 /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		CFB0ADD72EFAFEF900B11211 /* Project TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB0ADDB2EFAFEF900B11211 /* Project_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_TrackerUITests.swift; sourceTree = "<group>"; };
 		CFB0ADDD2EFAFEF900B11211 /* Project_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFB0ADEA2EFB036500B11211 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CFB0ADEB2EFB036500B11211 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CFB0ADEC2EFB036500B11211 /* Checkpoint+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checkpoint+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CFB0ADED2EFB036500B11211 /* Checkpoint+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checkpoint+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CFB0ADF22EFB04A800B11211 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		CFB0ADF42EFB099800B11211 /* TimelineProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineProgressBar.swift; sourceTree = "<group>"; };
+		CFB0ADF62EFB0DE300B11211 /* CheckPointRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointRow.swift; sourceTree = "<group>"; };
+		CFB0ADF82EFB23E300B11211 /* CheckpointEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointEditorView.swift; sourceTree = "<group>"; };
+		CFB0ADFA2EFB240900B11211 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,10 @@
 		CFB0ADAE2EFAFEE600B11211 = {
 			isa = PBXGroup;
 			children = (
+				CFB0ADEA2EFB036500B11211 /* Project+CoreDataClass.swift */,
+				CFB0ADEB2EFB036500B11211 /* Project+CoreDataProperties.swift */,
+				CFB0ADEC2EFB036500B11211 /* Checkpoint+CoreDataClass.swift */,
+				CFB0ADED2EFB036500B11211 /* Checkpoint+CoreDataProperties.swift */,
 				CFB0ADB92EFAFEE700B11211 /* Project Tracker */,
 				CFB0ADD02EFAFEF900B11211 /* Project TrackerTests */,
 				CFB0ADDA2EFAFEF900B11211 /* Project TrackerUITests */,
@@ -100,6 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				CFB0ADBA2EFAFEE700B11211 /* Project_TrackerApp.swift */,
+				CFB0ADF22EFB04A800B11211 /* ProjectDetailView.swift */,
+				CFB0ADF82EFB23E300B11211 /* CheckpointEditorView.swift */,
+				CFB0ADFA2EFB240900B11211 /* ProgressBar.swift */,
+				CFB0ADF62EFB0DE300B11211 /* CheckPointRow.swift */,
+				CFB0ADF42EFB099800B11211 /* TimelineProgressBar.swift */,
 				CFB0ADBC2EFAFEE700B11211 /* ContentView.swift */,
 				CFB0ADBE2EFAFEF700B11211 /* Assets.xcassets */,
 				CFB0ADC32EFAFEF700B11211 /* Persistence.swift */,
@@ -266,9 +293,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFB0ADC42EFAFEF700B11211 /* Persistence.swift in Sources */,
+				CFB0ADF12EFB036500B11211 /* Checkpoint+CoreDataProperties.swift in Sources */,
+				CFB0ADF32EFB04A800B11211 /* ProjectDetailView.swift in Sources */,
+				CFB0ADF72EFB0DE400B11211 /* CheckPointRow.swift in Sources */,
+				CFB0ADF02EFB036500B11211 /* Checkpoint+CoreDataClass.swift in Sources */,
 				CFB0ADBD2EFAFEE700B11211 /* ContentView.swift in Sources */,
 				CFB0ADC72EFAFEF700B11211 /* Project_Tracker.xcdatamodeld in Sources */,
 				CFB0ADBB2EFAFEE700B11211 /* Project_TrackerApp.swift in Sources */,
+				CFB0ADEF2EFB036500B11211 /* Project+CoreDataProperties.swift in Sources */,
+				CFB0ADF52EFB099800B11211 /* TimelineProgressBar.swift in Sources */,
+				CFB0ADFB2EFB240900B11211 /* ProgressBar.swift in Sources */,
+				CFB0ADEE2EFB036500B11211 /* Project+CoreDataClass.swift in Sources */,
+				CFB0ADF92EFB23E400B11211 /* CheckpointEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
