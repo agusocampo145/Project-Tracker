@@ -41,9 +41,3 @@ El objetivo del proyecto es ofrecer una herramienta **simple, offline y visual**
 - macOS 12+
 
 ---
-
-## 📦 Instalación / Uso
-
-1. Clonar el repositorio:
-   ```bash
-   git clone <url-del-repositorio>
